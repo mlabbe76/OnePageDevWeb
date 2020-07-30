@@ -5,8 +5,26 @@
 .navbar-brand{
     margin-right: 10%;
 }
+.card{
+    margin-top: 1%;
+    padding: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+} 
 
-/* ------ Header---------*/
-img{
-    max-width: 40%;
+footer{
+    background-color: black;
+}
+.pfooter{
+    color: #fff;
+}
+
+@media only screen and (min-width: 768px){
+    .imgslide{
+        max-width: 80%;
+        padding: 1%;
+        margin: 0 0 0 10%;
+        
+    }
+    
 }

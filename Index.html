@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="Css/style.css">
   </head>
   <body>
@@ -24,19 +24,19 @@
         <div class="navbar-collapse collapse" id="navbarsExample03" style="">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Formation <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#formation">Formation <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Sessions<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#sessions">Sessions<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Pédagogie<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#pedagogie">Pédagogie<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Technologies <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#technologies">Technologies <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#contact">Contact <span class="sr-only">(current)</span></a>
               </li> <!-- 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -54,6 +54,7 @@
       </nav>
     </header>
     <body>
+      <!-- Carousel--> 
 
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -63,24 +64,24 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="Image/Logo_Afpa.jpg" class="d-block w-100" alt="LogoAfpa">
+          <img src="Image/Image1.jpg" class="d-block w-100 imgslide" alt="formationafpa">
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Image/Image2.jpg" class="d-block w-100 imgslide" alt="formation2">
           <div class="carousel-caption d-none d-md-block">
             <h5>Centre Afpa de Niort</h5>
             <p>Formation Développeur Web & Web Mobile</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="Image/Image3.jpg" class="d-block w-100 imgslide" alt="formation3">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h5>Centre Afpa de Niort</h5>
+            <p>Formation Développeur Web & Web Mobile</p>
           </div>
         </div>
       </div>
@@ -93,6 +94,89 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+
+    <section class="container">
+      <div class="row justify-content-center">
+    <!-- Formation qualifiante--> 
+    <div  id="formation" class="card col-12 col-sm-5">
+      <div class="card-header">
+        Formation qualifiante
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"> <i class="far fa-clock"></i> Durée : <br>8 mois environ (1 190 heures).<br>
+          Durées indicatives et ajustables<br> en fonction des besoins des personnes.</li>
+        <li class="list-group-item"> <i class="fas fa-graduation-cap"></i> Validation visée :<br>
+          Titre professionnel de niveau 5<br>(BTS/DUT) de développeur/se Web et Web mobile</li>
+      </ul>
+    </div>
+    <!-- Sessions--> 
+    <div id="sessions" class="card col-12 col-sm-5">
+      <div class="card-header">
+        <i class="far fa-calendar-alt"></i> Prochaine session :
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"> Prochaine formation :<br>
+          Marseille 13 - <br>du   30/07/2020  au   30/03/2021</li>
+      </ul>
+    </div>
+   <!-- Pédagogie-->  
+   <div id="pedagogie" class="card col-12 col-sm-5">
+    <div class="card-header">
+      Déroulé formation(Pédagogie)
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Faire preuve d'autonomie<br>Formation de 1190H<br>Stage :2 mois en entreprise</li>
+    </ul>
+  </div>
+  <!-- Technos-->  
+  <div id="technologies" class="card col-12 col-sm-5">
+    <div class="card-header">
+      Technologies :
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">HTML, CSS, JS, React, Jquery, <br>PHP, Symfony, Merise, SQL, MySQL, WordPress</li>
+    </ul>
+  </div>
+  <!-- Formulaire--> 
+  <section class="container">
+    <div id="contact" class="row justify-content-center">
+      <h3 class="col-12">Contact</h3>
+      <form class="col-12 col-sm-6">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email :</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputtext1">Nom :</label>
+          <input type="text" class="form-control" id="exampleInputtext1">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputtext2">Prénom :</label>
+          <input type="text" class="form-control" id="exampleInputtext2">
+        </div>
+        <button type="submit" class="btn btn-primary">Envoi</button>
+      </form>
+  <!-- Map-->  
+  <div class="col-12 col-sm-6">  
+      <p>Carte d'accès :</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2755.8756878556633!2d-0.4434264842429362!3d46.31230628447196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480731a525bb215f%3A0x7abd6acf56c81636!2s40%20Rue%20Pierre%20Chantelauze%2C%2079000%20Niort!5e0!3m2!1sfr!2sfr!4v1596114683278!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </div> 
+   <!-- Coordonnees-->  
+  <div class="card col-12 col-sm-6">
+    <div class="card-header">
+      Coordonnées : Afpa Niort
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">40 Pierre Chantelauze 79000 Niort<br> Horaires d'ouverture:<br>8H00-17H00</li>
+    </ul>
+  </div> 
+  </section>
+  </div>
+  </section>
+  <footer>
+    <p class="pfooter"><i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i><i class="fab fa-instagram"></i><i class="fab fa-linkedin-in"></i><br><i class="far fa-copyright"></i>Mentions légales</p>
+  </footer>
 
 
 
