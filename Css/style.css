@@ -14,9 +14,11 @@
 
 footer{
     background-color: black;
+    padding: 1%;
 }
 .pfooter{
     color: #fff;
+    text-align: center;
 }
 
 @media only screen and (min-width: 768px){
